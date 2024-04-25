@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    box-sizing: border-box;
+    font-family: system-ui; 
+    display: grid;
+    place-items: center;
+    margin: 50px;
+}
+
+.container {
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 2px 20px black;
+}
+
+img {
+    margin-top: 30px;
+}
+
+.section {
+    margin: 30px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
